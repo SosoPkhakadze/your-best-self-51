@@ -72,7 +72,7 @@ export function CreatePost() {
         <div className="flex-1">
           <div className="text-sm">marcus chen <span className="text-muted-foreground">@marcusc</span></div>
           <div className="mt-2 text-base leading-relaxed">
-            new bench PR. <span className="text-accent">102.5kg × 8</span>. patience > volume.
+            {"new bench PR. "}<span className="text-accent">102.5kg × 8</span>{". patience > volume."}
           </div>
         </div>
       </div>
