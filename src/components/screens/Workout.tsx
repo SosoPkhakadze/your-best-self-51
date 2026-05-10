@@ -1,7 +1,10 @@
 import { ScreenShell, I, Tag } from "./ui";
 
+type SetRow = { i: number; t: string; prev: string; w: number; r: number; done: boolean; active?: boolean };
+type Ex = { n: string; m: string; super?: boolean; sets: SetRow[] };
+
 export function ActiveWorkout() {
-  const exercises = [
+  const exercises: Ex[] = [
     {
       n: "Barbell Bench Press", m: "CHEST",
       sets: [
